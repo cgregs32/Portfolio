@@ -1,0 +1,306 @@
+ html, body {
+       overflow-x: hidden;
+}
+
+body { 
+    background: #E9E5E2;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+/*<-----------------NAV BAR--------------------------->*/
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+    border: 0;
+}
+
+#bs-nav-demo li a{
+    color: white;
+}
+
+.colapsed {
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+#bs-nav-demo a:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+/*<-----------------PERSONAL HOME PAGE--------------------------->*/
+
+#email_head {
+    font-size: 20px;
+}
+
+.skills{
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#home .container-fluid{
+    width: 550px;
+}
+
+header {
+    background: url(C:/Users/Ariel/Documents/ColtSteelClass/Portfolio/img/P7230013.jpg) center center;
+    background-size: cover;
+    height: 675px;
+    background-color: #ccf;
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+span h1 {
+    font-size: 72px;
+    border: 5px solid white;
+    padding-bottom: 15px;
+    padding-top: 6px;
+    letter-spacing: 4px;
+}
+
+.skills{
+    font-size: 28px;
+}
+
+/*<-----------------About ME--------------------------->*/
+
+#about{
+    padding-top: 75px;
+    background-color: #143642;
+    height: 650px;
+}
+
+#about .container{
+    width: 655px;
+}
+
+#about .col-lg-12{
+    text-align: center;
+}
+#about img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#about p {
+    font-size: 18px;
+    color: white;
+}
+
+
+/*<-----------------What I do--------------------------->*/
+
+#technology {
+    height: 725px;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+
+#technology h2{
+    font-size: 48px;
+}
+
+#technology h3{
+    font-size: 28px;
+    text-align: left;
+}
+
+#technology .icon_do{
+    font-size: 65px;
+    text-align: right;
+    margin: 20px auto;
+}    
+
+#technology hr{
+    background-color: black;
+}
+
+#technology .do_desctiption{
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+/*<-----------------portfolio--------------------------->*/
+
+#projects{
+    background-color: #143642;
+    height: 675px;
+    color: white;
+    height: 100%;
+    padding-top:50px;
+}
+
+#projects h2{
+    font-size: 48px;
+}
+
+
+
+/*<-----------------Contact--------------------------->*/
+#media{
+    font-size: 80px;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#contact hr{
+    margin: 0;
+}
+
+
+#contact {
+    height: 500px;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#contact h2{
+    font-size: 48px;
+}
+
+
+
+
+
+/*<----------------------Footer---------------------->*/
+footer{
+    background: url(C:/Users/Ariel/Documents/ColtSteelClass/Portfolio/img/P7230013.jpg) center bottom;
+    background-size: cover;
+    height: 150px;
+    text-align: center;
+    color: white;
+}
+footer li{
+    text-align: left;
+    list-style-type:none;
+    display: inline;
+}
+
+footer a{
+    color:white;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer .directory{
+    padding-top: 30px;
+}
+footer h4{
+    font-size: 18px;
+}
+
+footer hr{
+    margin: 0 0 5px 0;
+}
+
+#footer_directory a:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+}
+
+/*// Responsive My Skills Box Widget \\*/
+
+
+
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    background-color: #fff;
+    //border: 1px solid #cdcdcd;
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+#Skill-CSS {
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-jQuery {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+#Skill-JS {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+#Skill-Ruby {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+#Skill-Rails {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
